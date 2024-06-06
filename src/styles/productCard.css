@@ -1,0 +1,11 @@
+.card-text {
+    line-height: 17px;
+    margin-bottom: 5px;
+}
+.card-title {
+    margin-bottom: 3px;
+    line-height: 20px;
+}
+.card-body {
+    padding-inline: 5px;
+}

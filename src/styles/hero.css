@@ -1,0 +1,13 @@
+
+.full-container {
+    background-color: #eee;
+}
+.hero-image {
+  width:300px
+}
+
+.hero-head {
+    width: 15ch;
+    max-width: 100% ;
+    
+}

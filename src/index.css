@@ -1,0 +1,55 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@font-face {
+    font-family: Quicksand;
+    src: url(../src/assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+    
+    
+}
+@import "./assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf";
+body {
+    font-family: 'Quicksand'; 
+  }
+  .section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cursor-pointer {
+    cursor:pointer;
+  }
+  h1 {
+    font-weight:800;
+    font-size: 50px;
+  }
+  p{
+    font-weight:400 ;
+    font-size: 16px;
+    line-height: 27px;
+color: #787c8b;
+  }
+  .btn-first {
+    background-color: black;
+    color: white;
+    border: solid 2px transparent;
+    font-weight: 600;
+}
+.btn-first:hover {
+    background-color: #eee;
+    color: black;
+    border: solid 2px black;
+}
+.btn-second {
+  background-color: white;
+  color: black;
+  border: solid 2px black;
+  font-weight: 600;
+}
+.btn-second:hover {
+  background-color: black;
+  color: white;
+  border: solid 2px black;
+
+}
+.badge {
+  font-size: 10px;
+}

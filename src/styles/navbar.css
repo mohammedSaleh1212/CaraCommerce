@@ -1,0 +1,8 @@
+nav {
+    transition:  1s ease;
+    background-color: white;
+  }
+  .up {
+transform:translateY(-100%)
+  }
+  

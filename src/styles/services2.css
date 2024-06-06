@@ -1,0 +1,10 @@
+.text-content {
+    background-color: #eee;
+    padding-inline: 20px;
+    padding-block:40px
+}
+.service {
+    border-radius: 20px;
+    overflow: hidden;
+padding-inline: 0;
+}

@@ -1,0 +1,48 @@
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+
+.active-color::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: transparent;
+  /* Set to transparent */
+  border: 1px solid gray;
+  /* Choose your desired color */
+}
+
+.active-size {
+  background-color: black;
+  color: white;
+
+}
+
+.size-button {
+  border-radius: 20%;
+  padding-block: 2px;
+  padding-inline: 10px;
+}
+.image-wrapper{
+  background-color: #eee;
+  text-align: center;
+}
+.product-image {
+  max-height: 400px;
+  max-width: 400px;
+}
+.c :nth-child(1) {
+  color: #787c8b;
+
+}
