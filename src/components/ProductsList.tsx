@@ -5,7 +5,7 @@ import ProductCard from './ProductCard'
 const ProductsList = () => {
 
     const { data: products, error, isLoading } = useProducts()
-    if (isLoading) return <p>loading</p>
+    if (isLoading) return <h1>use vpn to see the products</h1>
     if (error) return <p className='text-danger'>Use Vpn get the products</p>
     if (products) return (
         <div className="container products-container section-padding">
