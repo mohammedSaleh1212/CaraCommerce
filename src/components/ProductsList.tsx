@@ -6,7 +6,7 @@ const ProductsList = () => {
 
     const { data: products, error, isLoading } = useProducts()
     if (isLoading) return <p>loading</p>
-    if (error) return <p>error</p>
+    if (error) return <p className='text-danger'>Use Vpn get the products</p>
     if (products) return (
         <div className="container products-container section-padding">
             <div className="row justify-content-center gap-4">
