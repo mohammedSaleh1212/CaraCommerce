@@ -20,7 +20,7 @@ const Nav = () => {
         <Link className="navbar-brand" to={"/"}><img src={logo} alt="" onClick={(event) => {
           event.preventDefault()
           resetQuery()
-          navigate('/CaraCommerce')
+          navigate('/CaraCommerce/')
 
 
         }} /></Link>
@@ -40,7 +40,8 @@ const Nav = () => {
                   event.preventDefault()
                   setShowOffcanvas(false)
                   resetQuery()
-                  navigate('/CaraCommerce')
+
+                  navigate('/CaraCommerce/')
 
                 }}>Home</NavLink>
               </li>

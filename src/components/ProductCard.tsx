@@ -13,6 +13,7 @@ interface Props {
 }
 const ProductCard = ({ product}: Props) => {
   const  addToCart  = useCartStore(s=>s.addToCart)
+  const updateQuery  = useProductQueryStore(s=>s.updateQuery)
 
 
     const navigate = useNavigate()
@@ -24,6 +25,7 @@ const ProductCard = ({ product}: Props) => {
         data-aos-anchor-placement="top-bottom">
             <img className='w-100' src={product.thumbnail} style={{height:'200px'}} onClick={(event) => {
                 event.preventDefault()
+                updateQuery({limit:8,skip:0})
                 navigate(`/CaraCommerce/products/${product.id}`)
                 setSelectedCategory(product.category)
 

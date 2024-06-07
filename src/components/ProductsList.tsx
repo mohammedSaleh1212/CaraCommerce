@@ -1,4 +1,5 @@
 import useProducts from '../hooks/useProducts'
+import Paginator from './Paginator'
 import ProductCard from './ProductCard'
 
 
@@ -11,10 +12,11 @@ const ProductsList = () => {
         <div className="container products-container section-padding">
             <div className="row justify-content-center gap-4">
 
-            {products.products.map(product =>
-             <ProductCard key={product.id} product={product} />
+                {products.products.map(product =>
+                    <ProductCard key={product.id} product={product} />
 
-)}
+                )}
+                <Paginator products={products} />
             </div>
 
         </div>

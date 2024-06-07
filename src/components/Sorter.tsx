@@ -4,8 +4,8 @@ const Sorter = () => {
     const setSelectedSortBy = useProductQueryStore(s => s.setSortBy)
   
   return (
-    <div className="dropdown">
-    <button className="btn btn-second " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <div className=" d-block dropdown">
+    <button className="btn btn-second d-flex gap-1 fle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
 
       Sort By
       <i className="bi bi-chevron-down"></i> 
